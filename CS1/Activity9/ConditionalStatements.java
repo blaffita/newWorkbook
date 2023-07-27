@@ -9,7 +9,7 @@ public class ConditionalStatements{
         System.out.println("Please give me another word: ");
         String word1 = input.nextLine();
 
-        if(){
+        if(word.equals(word1)){
             System.out.println("In alphabetical order " + word + " comes before " + word1);
         }
         else{
